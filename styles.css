@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.game {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent white background */
+  border-radius: 10px; /* Adding some border radius for a nicer look */
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.dealer {
+  margin-bottom: 20px;
+}
